@@ -10,8 +10,8 @@ function App() {
       <div className='app'>
         <Header />
         <Routes>
-          <Route path='/' element={<HomePage />}></Route>
-          <Route path='/blog' element={<BlogPage />}></Route>
+          <Route path='react-portfolio/' element={<HomePage />}></Route>
+          <Route path='react-portfolio/blog' element={<BlogPage />}></Route>
         </Routes>
       </div>
     </Router>
