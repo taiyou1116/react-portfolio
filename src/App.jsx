@@ -11,8 +11,8 @@ function App() {
       <div className='app'>
         <Header />
         <Routes>
-          <Route path='taiyou1116.github.io/react-portfolio/' element={<HomePage />}></Route>
-          <Route path='taiyou1116.github.io/react-portfolio/blog' element={<BlogPage />}></Route>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='/blog' element={<BlogPage />}></Route>
         </Routes>
       </div>
     </Router>
